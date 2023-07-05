@@ -22,7 +22,7 @@ import com.cam.Authentication.security.services.UserDetailsServiceImpl;
 @Configuration
 @EnableGlobalMethodSecurity(
         // securedEnabled = true,
-        // jsr250Enabled = true,
+        // jsr250Enabled =  true,
         prePostEnabled = true)
 public class WebSecurityConfig {
     @Autowired
